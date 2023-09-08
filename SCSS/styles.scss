@@ -119,20 +119,10 @@ $color-footer: rgb(197, 99, 60);
     border: 1px solid teal; 
   }
   
-  .text-justify {
+.text-justify {
     text-align: justify !important;
   }
 
-.seccionFooter{
-  p{
-      text-align: center;
-      animation: colorChange 3s infinite;
-      font-family: 'Ysabeau SC', sans-serif;
-      font-weight: bold;
-    }
-  }
-
-  
   /* Pagina Contactanos */
   
   body {

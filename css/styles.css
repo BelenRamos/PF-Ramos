@@ -33,7 +33,7 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol, ul, a {
   list-style: none;
 }
 
@@ -144,13 +144,6 @@ table {
 
 .text-justify {
   text-align: justify !important;
-}
-
-.seccionFooter p {
-  text-align: center;
-  animation: colorChange 3s infinite;
-  font-family: "Ysabeau SC", sans-serif;
-  font-weight: bold;
 }
 
 /* Pagina Contactanos */

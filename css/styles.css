@@ -94,6 +94,10 @@ table {
     color: rgb(1, 48, 38);
   }
 }
+.underline {
+  text-decoration: underline;
+}
+
 .bodyPlanetas {
   background-image: linear-gradient(to bottom, #000, rgb(37, 36, 93));
 }
@@ -107,16 +111,6 @@ table {
 }
 .seccionSocial p {
   color: #252424;
-}
-
-.seccionSocialPlanetas {
-  margin-top: 10px;
-}
-.seccionSocialPlanetas h3 {
-  color: rgb(197, 99, 60);
-}
-.seccionSocialPlanetas p {
-  color: rgb(197, 99, 60);
 }
 
 .seccionHeader {

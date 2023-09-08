@@ -68,6 +68,10 @@ $color-footer: rgb(197, 99, 60);
   
 //Cambios generales
 
+.underline{
+  text-decoration: underline;
+}
+
 .bodyPlanetas {
   background-image: linear-gradient(to bottom, $color-negro, rgb(37, 36, 93));
 }
@@ -84,17 +88,6 @@ $color-footer: rgb(197, 99, 60);
           color: #252424;
         }
   }
-
-.seccionSocialPlanetas{
-  margin-top: 10px;
-      h3{
-          color: $color-footer;
-      }
-  
-      p{
-          color: $color-footer;
-        }
-}
   
 .seccionHeader{
     background-color: $color-background ;

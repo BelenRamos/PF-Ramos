@@ -336,22 +336,22 @@ $color-1: rgb(219, 177, 59);
 
   @media only screen and (min-width: 320px) and (max-width: 768px)  {
 
+    p {
+      margin: 3px;
+      font-size: small;
+      padding: auto;
+    }
+
     article {
       padding: 15px;
     }
     
     .introPlanetas, .seccionUltimaPlanetas{
       padding: 15px;
-     p {
-      margin: 3px;
-      font-size: small;
-    }
-    
     } 
 
     .tituloPlanetas{
       p{
-        font-size: small;
         text-align: justify;
       }
     }

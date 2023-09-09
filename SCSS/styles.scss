@@ -25,7 +25,7 @@
 $color-negro: #000;
 $color-background : rgb(69, 202, 172);
 $color-resaltado: rgb(82, 240, 204);
-$color-footer: rgb(197, 99, 60);
+$color-1: rgb(219, 177, 59);
 
 
 
@@ -71,6 +71,7 @@ $color-footer: rgb(197, 99, 60);
 .underline{
   text-decoration: underline;
 }
+
 
 .bodyPlanetas {
   background-image: linear-gradient(to bottom, $color-negro, rgb(37, 36, 93));
@@ -220,7 +221,7 @@ $color-footer: rgb(197, 99, 60);
 .seccionInfoPlanetas{
     
   h2{
-        color: $color-footer;
+        color: $color-1;
         text-align: center;
         font-size: 28px;
         margin-bottom: 20px;
@@ -228,7 +229,7 @@ $color-footer: rgb(197, 99, 60);
       }
 
   p{
-      color: $color-footer;
+      color: $color-1;
       
     }
   }
@@ -253,7 +254,7 @@ $color-footer: rgb(197, 99, 60);
 
     h1 {
       font-size: 24px;
-      color: rgb(219, 177, 59);
+      color: $color-1;
       
     }
     
@@ -273,10 +274,13 @@ $color-footer: rgb(197, 99, 60);
 .seccionUltimaPlanetas{
   background-color: whitesmoke;
   padding: 50px;
+  margin-top: 40px;
+  margin-bottom: 1px;
+  
 
   p{
     text-align: justify;
-    margin: 40px;
+    padding: auto;
   }
 }
   
@@ -294,6 +298,7 @@ $color-footer: rgb(197, 99, 60);
   margin: 50px;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
   
    article {
     background-color: #92ded2;

@@ -240,13 +240,13 @@ input[type=submit]:hover {
 }
 
 .seccionInfoPlanetas h2 {
-  color: rgb(197, 99, 60);
+  color: rgb(219, 177, 59);
   text-align: center;
   font-size: 28px;
   margin-bottom: 20px;
 }
 .seccionInfoPlanetas p {
-  color: rgb(197, 99, 60);
+  color: rgb(219, 177, 59);
 }
 
 .grilla {
@@ -283,10 +283,12 @@ input[type=submit]:hover {
 .seccionUltimaPlanetas {
   background-color: whitesmoke;
   padding: 50px;
+  margin-top: 40px;
+  margin-bottom: 1px;
 }
 .seccionUltimaPlanetas p {
   text-align: justify;
-  margin: 40px;
+  padding: auto;
 }
 
 /* Pagina nasa */
@@ -304,6 +306,7 @@ input[type=submit]:hover {
   margin: 50px;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
 }
 .noticias article {
   background-color: #92ded2;

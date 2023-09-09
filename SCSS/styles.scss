@@ -355,10 +355,14 @@ $color-1: rgb(219, 177, 59);
         text-align: justify;
       }
     }
-  }
 
-  @media screen and (max-width: 320px) {
     .videoBackground {
-      display: none; /* Oculta la sección que contiene el video */
+      display: none; 
+    }
+    .videoBackground {
+      background-image: url('../Imagenes/planets.jpg'); 
+      background-size: cover;
+      background-position: center center;
     }
   }
+

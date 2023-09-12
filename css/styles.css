@@ -344,8 +344,12 @@ input[type=submit]:hover {
   article {
     padding: 15px;
   }
-  .introPlanetas, .seccionUltimaPlanetas {
+  .introPlanetas {
     padding: 1px;
+    margin: 10px;
+  }
+  .seccionUltimaPlanetas {
+    margin: 15px;
   }
   .tituloPlanetas p {
     text-align: justify;

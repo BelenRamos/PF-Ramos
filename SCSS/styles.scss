@@ -346,10 +346,14 @@ $color-1: rgb(219, 177, 59);
       padding: 15px;
     }
     
-    .introPlanetas, .seccionUltimaPlanetas{
+    .introPlanetas{
       padding: 1px;
-    
+      margin: 10px;
     } 
+
+  .seccionUltimaPlanetas{
+    margin: 15px;
+  }
 
     .tituloPlanetas{
       p{

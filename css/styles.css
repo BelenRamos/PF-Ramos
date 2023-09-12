@@ -358,6 +358,9 @@ input[type=submit]:hover {
     background-size: cover;
     background-position: center center;
   }
+  .espacio a {
+    padding: 12px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

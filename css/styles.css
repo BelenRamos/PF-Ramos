@@ -345,7 +345,7 @@ input[type=submit]:hover {
     padding: 15px;
   }
   .introPlanetas, .seccionUltimaPlanetas {
-    padding: 15px;
+    padding: 1px;
   }
   .tituloPlanetas p {
     text-align: justify;

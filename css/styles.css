@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -123,11 +124,6 @@ table {
   transition: color 0.3s ease;
 }
 .nav-link.active {
-  background-color: rgb(82, 240, 204);
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  background-size: 30px;
   font-weight: bold;
 }
 
@@ -326,6 +322,16 @@ input[type=submit]:hover {
   justify-content: space-between;
 }
 
+@media (max-width: 320px) {
+  .introPlanetas, .seccionUltimaPlanetas {
+    background-color: whitesmoke;
+    padding: 20px; /* Puedes ajustar el valor de padding según tus necesidades en dispositivos móviles */
+  }
+  .introPlanetas p, .seccionUltimaPlanetas p {
+    margin: 20px; /* Puedes ajustar el valor de margin según tus necesidades en dispositivos móviles */
+    text-align: justify;
+  }
+}
 @media (max-width: 768px) {
   .article {
     flex-direction: column;
@@ -343,13 +349,6 @@ input[type=submit]:hover {
   }
   article {
     padding: 15px;
-  }
-  .introPlanetas {
-    padding: 1px;
-    margin: 10px;
-  }
-  .seccionUltimaPlanetas {
-    margin: 15px;
   }
   .tituloPlanetas p {
     text-align: justify;

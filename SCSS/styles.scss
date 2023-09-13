@@ -100,10 +100,6 @@ $color-1: rgb(219, 177, 59);
   transition: color 0.3s ease;
 
   &.active {
-    
-    background-color:$color-resaltado;
-    @include borde-redondeado(4px);
-    background-size: 30px;
     font-weight: bold;
   }
 }  
@@ -322,6 +318,19 @@ $color-1: rgb(219, 177, 59);
 
 
   // Medias Querys
+
+  @media (max-width: 320px) {
+    .introPlanetas, .seccionUltimaPlanetas {
+      background-color: whitesmoke;
+      padding: 20px; /* Puedes ajustar el valor de padding según tus necesidades en dispositivos móviles */
+  
+      p {
+        margin: 20px; /* Puedes ajustar el valor de margin según tus necesidades en dispositivos móviles */
+        text-align: justify;
+      }
+    }
+  }
+  
   
   @media (max-width: 768px) {
   .article {
@@ -345,18 +354,9 @@ $color-1: rgb(219, 177, 59);
     article {
       padding: 15px;
     }
-    
-    .introPlanetas{
-      padding: 1px;
-      margin: 10px;
-    } 
 
-  .seccionUltimaPlanetas{
-    margin: 15px;
-  }
-
-    .tituloPlanetas{
-      p{
+  .tituloPlanetas{
+    p{
         text-align: justify;
       }
     }

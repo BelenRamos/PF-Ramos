@@ -317,6 +317,13 @@ $color-1: rgb(219, 177, 59);
   }
 
 
+  //Pagina de curiosidades
+.video-fondo {
+  margin-right: 15px; /* Espacio entre los videos, puedes ajustar este valor según tus necesidades */
+}
+
+
+
   // Medias Querys
 
   @media (max-width: 320px) {

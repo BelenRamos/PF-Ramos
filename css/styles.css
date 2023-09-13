@@ -322,6 +322,10 @@ input[type=submit]:hover {
   justify-content: space-between;
 }
 
+.video-fondo {
+  margin-right: 15px; /* Espacio entre los videos, puedes ajustar este valor según tus necesidades */
+}
+
 @media (max-width: 320px) {
   .introPlanetas, .seccionUltimaPlanetas {
     background-color: whitesmoke;

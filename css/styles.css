@@ -228,10 +228,9 @@ input[type=submit]:hover {
 
 .introPlanetas {
   background-color: whitesmoke;
-  padding: 50px;
+  padding: 150px;
 }
 .introPlanetas p {
-  margin: 100px;
   text-align: justify;
 }
 
@@ -259,7 +258,8 @@ input[type=submit]:hover {
 }
 
 .tituloPlanetas {
-  margin: 50px;
+  margin: 20px;
+  padding: 5px;
 }
 .tituloPlanetas h1 {
   font-size: 24px;
@@ -332,7 +332,7 @@ input[type=submit]:hover {
     padding: 20px; /* Puedes ajustar el valor de padding según tus necesidades en dispositivos móviles */
   }
   .introPlanetas p, .seccionUltimaPlanetas p {
-    margin: 20px; /* Puedes ajustar el valor de margin según tus necesidades en dispositivos móviles */
+    margin: 25px; /* Puedes ajustar el valor de margin según tus necesidades en dispositivos móviles */
     text-align: justify;
   }
 }

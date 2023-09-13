@@ -357,6 +357,9 @@ input[type=submit]:hover {
   .seccionUltima img {
     width: 200px;
     height: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
   }
   .tituloPlanetas p {
     text-align: justify;

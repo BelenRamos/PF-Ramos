@@ -369,6 +369,9 @@ $color-1: rgb(219, 177, 59);
       img{
         width: 200px;
         height: auto;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: block !important;
       }
     }
 

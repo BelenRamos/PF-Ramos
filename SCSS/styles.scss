@@ -113,6 +113,8 @@ $color-1: rgb(219, 177, 59);
     text-align: justify !important;
   }
 
+
+
   /* Pagina Contactanos */
   
   body {
@@ -363,15 +365,23 @@ $color-1: rgb(219, 177, 59);
       padding: 15px;
     }
 
-  .tituloPlanetas{
-    p{
-        text-align: justify;
+    .seccionUltima{
+      img{
+        width: 200px;
+        height: auto;
       }
     }
+
+    .tituloPlanetas{
+      p{
+          text-align: justify;
+        }
+      }
 
     .videoBackground {
       display: none; 
     }
+
     .videoBackground {
       background-image: url('../Imagenes/planets.jpg'); 
       background-size: cover;

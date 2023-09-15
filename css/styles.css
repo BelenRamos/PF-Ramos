@@ -64,38 +64,6 @@ table {
   font-family: "Ysabeau", sans-serif;
   src: url("../Fonts/YsabeauSC-Regular.ttf");
 }
-/*   @keyframes bounce {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-20px);
-    }
-  }
-
-  h2 {
-    font-size: 24px;
-    animation: bounce 1s infinite;
-  } */
-/*   @keyframes colorChange {
-    0% {
-      color: rgb(203, 229, 142);
-    }
-    50% {
-      color: rgb(161, 206, 63);
-    }
-    100% {
-      color: rgb(16, 126, 87);
-    }
-
-    150% {
-      color: rgb(1, 71, 96);
-    }
-
-    200% {
-      color: rgb(1, 48, 38);
-    }
-  } */
 .underline {
   text-decoration: underline;
 }
@@ -211,23 +179,6 @@ input[type=submit]:hover {
 }
 
 /* pagina Planetas */
-/* .videoBackground {
-    margin-top: 80px;
-
-    video{
-      min-height: 100vh;
-      width: 100%;
-    }
-
-   } 
-
-  #backgroundVideo {
-    display: block;
-  }
-
-  #backgroundVideo::-webkit-media-controls {
-    display:none !important;
-  } */
 .tituloPlanetas {
   text-align: center;
   padding: 10px;
@@ -382,9 +333,6 @@ input[type=submit]:hover {
   .tituloPlanetas p {
     text-align: justify;
   }
-  /*  .videoBackground {
-     display: none; 
-   } */
   .imagenFondo img {
     width: 100%;
   }

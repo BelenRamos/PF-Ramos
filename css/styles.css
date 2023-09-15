@@ -77,29 +77,31 @@ table {
     font-size: 24px;
     animation: bounce 1s infinite;
   } */
-@keyframes colorChange {
-  0% {
-    color: rgb(203, 229, 142);
-  }
-  50% {
-    color: rgb(161, 206, 63);
-  }
-  100% {
-    color: rgb(16, 126, 87);
-  }
-  150% {
-    color: rgb(1, 71, 96);
-  }
-  200% {
-    color: rgb(1, 48, 38);
-  }
-}
+/*   @keyframes colorChange {
+    0% {
+      color: rgb(203, 229, 142);
+    }
+    50% {
+      color: rgb(161, 206, 63);
+    }
+    100% {
+      color: rgb(16, 126, 87);
+    }
+
+    150% {
+      color: rgb(1, 71, 96);
+    }
+
+    200% {
+      color: rgb(1, 48, 38);
+    }
+  } */
 .underline {
   text-decoration: underline;
 }
 
 .bodyPlanetas {
-  background-image: linear-gradient(to bottom, #000, rgb(37, 36, 93));
+  background-image: linear-gradient(to bottom, #000, teal);
 }
 
 .seccionSocial {
@@ -374,8 +376,11 @@ input[type=submit]:hover {
   .tituloPlanetas p {
     text-align: justify;
   }
-  .videoBackground {
-    display: none;
+  /*  .videoBackground {
+     display: none; 
+   } */
+  .imagenFondo img {
+    width: 100%;
   }
   .videoBackground {
     background-image: url("../Imagenes/planets.jpg");

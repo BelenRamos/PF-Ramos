@@ -45,7 +45,7 @@ $color-1: rgb(219, 177, 59);
     animation: bounce 1s infinite;
   } */
 
-  @keyframes colorChange {
+/*   @keyframes colorChange {
     0% {
       color: rgb(203, 229, 142);
     }
@@ -63,7 +63,7 @@ $color-1: rgb(219, 177, 59);
     200% {
       color: rgb(1, 48, 38);
     }
-  }
+  } */
 
   
 //Cambios generales
@@ -74,7 +74,7 @@ $color-1: rgb(219, 177, 59);
 
 
 .bodyPlanetas {
-  background-image: linear-gradient(to bottom, $color-negro, rgb(37, 36, 93));
+  background-image: linear-gradient(to bottom, $color-negro, teal);
 }
 
 .seccionSocial{
@@ -392,8 +392,14 @@ $color-1: rgb(219, 177, 59);
       }
     }
 
-  .videoBackground {
+ /*  .videoBackground {
     display: none; 
+  } */
+
+  .imagenFondo{
+    img{
+      width: 100%;
+    }
   }
 
   .videoBackground {

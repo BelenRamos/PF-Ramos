@@ -187,7 +187,7 @@ $color-1: rgb(219, 177, 59);
   
   /* pagina Planetas */
 
-.videoBackground {
+/* .videoBackground {
     margin-top: 80px;
     
     video{
@@ -203,13 +203,17 @@ $color-1: rgb(219, 177, 59);
   
   #backgroundVideo::-webkit-media-controls {
     display:none !important;
-  }
+  } */
+
+.tituloPlanetas{
+  text-align: center;
+  padding: 10px;
+}
 
 .introPlanetas{
   background-color: whitesmoke;
   padding: 150px;
   
-
   p{
     
     text-align: justify;

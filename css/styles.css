@@ -211,20 +211,26 @@ input[type=submit]:hover {
 }
 
 /* pagina Planetas */
-.videoBackground {
-  margin-top: 80px;
-}
-.videoBackground video {
-  min-height: 100vh;
-  width: 100%;
-}
+/* .videoBackground {
+    margin-top: 80px;
 
-#backgroundVideo {
-  display: block;
-}
+    video{
+      min-height: 100vh;
+      width: 100%;
+    }
 
-#backgroundVideo::-webkit-media-controls {
-  display: none !important;
+   } 
+
+  #backgroundVideo {
+    display: block;
+  }
+
+  #backgroundVideo::-webkit-media-controls {
+    display:none !important;
+  } */
+.tituloPlanetas {
+  text-align: center;
+  padding: 10px;
 }
 
 .introPlanetas {

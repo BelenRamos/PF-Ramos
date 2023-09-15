@@ -179,7 +179,7 @@ input[type=submit]:hover {
 }
 
 /* pagina Planetas */
-.tituloPlanetas {
+.tituloPlanetas p, .tituloPlanetas h1 {
   text-align: center;
   padding: 10px;
 }

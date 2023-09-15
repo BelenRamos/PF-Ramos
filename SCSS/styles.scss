@@ -147,11 +147,12 @@ $color-1: rgb(219, 177, 59);
   
   
 /* pagina Planetas */
-
-
 .tituloPlanetas{
+
+  p, h1{
   text-align: center;
   padding: 10px;
+  }
 }
 
 .introPlanetas{
